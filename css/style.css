@@ -1,0 +1,19 @@
+:root {
+    --main: #e4d8cc;
+    --second: #7837f3;
+    --third: #c3bab1;
+    --fourth: #b99fea;
+}
+
+.container {
+    width: 1152px;
+    margin: 0px auto;
+}
+
+.header {
+    padding-top: 23px;
+}
+
+.header_hero {
+    background-image: url();
+}

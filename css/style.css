@@ -14,3 +14,12 @@
     padding-top: 23px;
 }
 
+.header_list {
+    display: flex;
+    gap: 32px;
+}
+
+.header_inform_list {
+    display: flex;
+    gap: 38px;
+}

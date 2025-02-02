@@ -10,8 +10,21 @@
     margin: 0px auto;
 }
 
+body {
+    background-color: var(--main);
+}
+.header_hero {
+    background: url(/bonus_images/main.png) no-repeat;
+    height: 784px;
+}
+
 .header {
     padding-top: 23px;
+}
+
+.header_nav {
+    display: flex;
+    gap: 253px;
 }
 
 .header_list {
@@ -22,4 +35,107 @@
 .header_inform_list {
     display: flex;
     gap: 38px;
+}
+
+.header_link,
+.header_inform_link {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 218%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--main);
+    text-decoration: none;
+}
+
+.hero {
+    margin-top: 364px;
+}
+
+.hero_title {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 106%;
+    color: var(--main);
+    width: 836px;
+}
+
+.hero_text {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: var(--third);
+    padding-top: 14px;
+}
+
+.hero_list {
+    display: flex;
+    gap: 50px;
+    padding-top: 42px;
+}
+
+.purple_button {
+    border: none;
+    border-radius: 100px;
+    width: 218px;
+    height: 52px;
+    background: var(--second);
+    color: #fff;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.transperent_button {
+    border-radius: 100px;
+    width: 170px;
+    height: 52px;
+    background: rgba(228, 216, 204, 0.5);
+    border: none;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+}
+
+.products_container {
+    display: flex;
+    gap: 60px;
+}
+
+.products_title {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 107%;
+    color: black;
+    width: 507px;
+    text-transform: capitalize;
+    padding-top: 76px;
+}
+
+.products_span {
+    text-transform: uppercase;
+}
+
+.products_text {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 137%;
+    color: black;
+    width: 452px;
+    padding-top: 15px;
+}
+
+.progress_image {
+    width: 539px;
+    height: 283px;
 }

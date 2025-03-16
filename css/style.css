@@ -1,8 +1,11 @@
 :root {
-    --main: #e4d8cc;
-    --second: #7837f3;
-    --third: #c3bab1;
+    --main:  #e7dfd8;
+    --accent: #7837f3;
+    --text:  #e4d8cc;
     --fourth: #b99fea;
+    --main-text: 'Inter', sans-serif;
+    --two: #EBA789;
+    --three: #96DBC6;
 }
 
 .container {
@@ -12,6 +15,8 @@
 
 body {
     background-color: var(--main);
+    font-size: 14px;
+    font-family: var(--main-text);
 }
 .header_hero {
     background: url(/bonus_images/main.png) no-repeat;
@@ -70,7 +75,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 156%;
-    color: var(--third);
+    color: var(--text);
     padding-top: 14px;
 }
 
@@ -85,13 +90,14 @@ body {
     border-radius: 100px;
     width: 218px;
     height: 52px;
-    background: var(--second);
+    background: var(--accent);
     color: #fff;
     font-family: Inter;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     text-align: center;
+    cursor: pointer;
 }
 
 .transperent_button {
@@ -106,6 +112,7 @@ body {
     line-height: 150%;
     text-align: center;
     color: #fff;
+    cursor: pointer;
 }
 
 .products_container {
@@ -120,7 +127,6 @@ body {
     line-height: 107%;
     color: black;
     width: 507px;
-    text-transform: capitalize;
     padding-top: 76px;
 }
 
@@ -141,6 +147,7 @@ body {
 .progress_image {
     width: 539px;
     height: 283px;
+    padding-top: 93px;
 }
 
 .steps_one {
@@ -151,4 +158,198 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 38px;
+    line-height: 63%;
+}
+
+.steps_two {
+    border-radius: 100px;
+    width: 74px;
+    height: 74px;
+    background: var(--two);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+    line-height: 63%;
+}
+
+.steps_three {
+    border-radius: 100px;
+    width: 74px;
+    height: 74px;
+    background: var(--three);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+    line-height: 63%;
+}
+
+.steps_box {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.steps_desc {
+    font-size: 19px;
+    line-height: 189%;
+}
+
+.steps_title {
+    font-size: 35px;
+    line-height: 130%;
+    width: 459px;
+    padding-top: 18px;
+}
+
+.steps_expand {
+    font-size: 12px;
+    line-height: 250%;
+    text-transform: uppercase;
+    padding-top: 11px;
+}
+
+.steps_expand::after {
+    content: '';
+    width: 95px;
+    height: 2px;
+    background-color: black;
+    display: block;
+}
+
+.steps_text {
+    line-height: 158%;
+    width: 494px;
+    padding-top: 45.5px;
+}
+
+.steps_text:nth-child(3) {
+    width: 485px;
+}
+
+.steps_list {
+    margin-top: 199px;
+}
+
+.steps_item {
+    display: flex;
+    gap: 116px;
+    padding-bottom: 205px;
+}
+
+.steps_item:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.steps_wrap {
+    padding-top: 68px;
+}
+
+.cite {
+    background-color: white;
+    padding-top: 116px;
+    padding-bottom: 124px;
+}
+
+.cite_list {
+    display: flex;
+    gap: 128px;
+    justify-content: center;
+}
+
+.cite_title {
+    font-size: 24px;
+    line-height: 133%;
+    color: var(--text);
+    text-align: center;
+    padding: 19px;
+}
+
+.cite_user {
+    line-height: 171%;
+    color: var(--text);
+}
+
+.cite_img {
+    margin: auto;
+    display: block;
+    padding-bottom: 48px;
+}
+
+.cite_wrap {
+    display: flex;
+    gap: 29px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 61px;
+}
+
+.forbes_img {
+    margin: auto;
+    display: block;
+    padding-top: 68px;
+}
+
+.questions {
+    background-color: black;
+}
+
+.questions_title {
+    font-size: 36px;
+    line-height: 127%;
+    color: var(--text);
+    padding-top: 118px;
+}
+
+.questions_item {
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--fourth);
+    padding-bottom: 52px;
+}
+
+.questions_wrap {
+    display: flex;
+    gap: 120px;
+    align-items: center;
+}
+
+.questions_frame {
+    padding-bottom: 71px;
+}
+
+.mission {
+    background: url(/bonus_images/boom.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mission_text {
+    font-size: 15px;
+    line-height: 107%;
+    color: var(--text);
+    padding-top: 139px;
+    padding-bottom: 19px;
+}
+
+.mission_title {
+    font-size: 48px;
+    line-height: 112%;
+    color: var(--text);
+    width: 580px;
+}
+
+.mission_button {
+    font-size: 12px;
+    line-height: 167%;
+    text-transform: uppercase;
+    color: var(--text);
+    background: none;
+    border: none;
+    border-bottom: 1px solid #e4d8cc;
+    padding-bottom: 13.56px;
+    margin-bottom: 98px;
+    margin-top: 24px;
 }

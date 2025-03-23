@@ -19,7 +19,7 @@ body {
     font-family: var(--main-text);
 }
 .header_hero {
-    background: url("/bonus_images/main.png") no-repeat;
+    background: url("./bonus_images/main.png") no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -321,7 +321,7 @@ body {
 }
 
 .mission {
-    background: url("/bonus_images/boom.png") no-repeat;
+    background: url("./bonus_images/boom.png") no-repeat;
     background-size: cover;
     background-position: center;
 }
